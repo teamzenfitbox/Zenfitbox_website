@@ -30,21 +30,21 @@ export default function Footer() {
 
             <ul className="mt-4 space-y-3 text-zinc-400">
               <li>
-                <a href="/#home">Home</a>
+                <Link href="/#home">Home</Link>
               </li>
 
               <li>
-                <a href="/#about">About</a>
+                <Link href="/#about">About</Link>
               </li>
 
               <li>
-                <a href="/#services">Services</a>
+                <Link href="/#services">Services</Link>
               </li>
               <li>
-                <a href="/#faq">FAQ</a>
+                <Link href="/#faq">FAQ</Link>
               </li>
               <li>
-                <a href="/#contact">Contact</a>
+                <Link href="/#contact">Contact</Link>
               </li>
             </ul>
           </div>
