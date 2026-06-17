@@ -26,7 +26,7 @@ const Contact = () => {
             </FadeUp>
           
           </div>
-          <FadeUp delay={0.15}>{<ContactForm/>}</FadeUp>
+          <FadeUp>{<ContactForm/>}</FadeUp>
         </div>
       </div>
     </section>

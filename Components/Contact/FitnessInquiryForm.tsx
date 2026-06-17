@@ -67,7 +67,7 @@ export default function ContactForm() {
       formData.append("phone", data.phone);
       formData.append("goal", data.goal);
       formData.append("message", data.message);
-
+console.log("API URL:", process.env.NEXT_PUBLIC_FORM_API);
       const response = await fetch(
         process.env.NEXT_PUBLIC_FORM_API!,
         {
@@ -77,6 +77,7 @@ export default function ContactForm() {
       );
 
       const result = await response.json();
+      console.log("Response:", result);
 
       if (result.success) {
        setResult(
